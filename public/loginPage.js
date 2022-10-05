@@ -12,21 +12,21 @@ userForm1.loginFormCallback = data => {
         if(data.success){
             location.reload();
         } else {
-            userForm1.setLoginErrorMessage("error");
+            userForm1.setLoginErrorMessage(`Пользователь c логином ${login} и указанным паролем не найден`);
         };
 });
 };
 
 
 userForm1.registerFormCallback = data => {
-    login = data.login;
-    password = data.password;
+    let login = data.login;
+    let password = data.password;
 
     ApiConnector.register({login, password}, data => {
         if(data.success){
             location.reload();
         } else {
-            userForm1.setRegisterErrorMessage("error");
+            userForm1.setRegisterErrorMessage("Пользователь не авторизован");
         };
     })
 }
