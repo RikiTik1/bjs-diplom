@@ -7,9 +7,9 @@
       "id": 1,
       "balance": {
         "RUB": 1000,
-        "USD": 20,
-        "EUR": 20,
-        "NTC": 3000
+        "USD": 21,
+        "EUR": 29,
+        "NTC": 3001
       }
     },
     {
@@ -19,10 +19,10 @@
       "id": 2,
       "netocoins": 100,
       "balance": {
-        "RUB": 20,
-        "USD": 0,
-        "EUR": 0,
-        "NTC": 100
+        "RUB": 22,
+        "USD": 2,
+        "EUR": 101,
+        "NTC": 108
       }
     },
     {
@@ -32,8 +32,8 @@
       "id": 3,
       "balance": {
         "RUB": 20000,
-        "USD": 300,
-        "EUR": 500,
+        "USD": 534,
+        "EUR": 501,
         "NTC": 50000
       }
     },
@@ -45,7 +45,7 @@
       "balance": {
         "RUB": 30000,
         "USD": 150,
-        "EUR": 300,
+        "EUR": 400,
         "NTC": 20000
       }
     },
@@ -59,6 +59,138 @@
         "USD": 500,
         "EUR": 600,
         "NTC": 90000
+      }
+    },
+    {
+      "created_at": "2022-09-26T13:02:22.546Z",
+      "login": "leg@demo.ru",
+      "password": "leg1",
+      "id": 6,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2022-09-26T13:03:45.928Z",
+      "login": " van@demo.ru",
+      "password": "van",
+      "id": 7,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2022-09-26T13:04:39.169Z",
+      "login": "11van@demo.ru",
+      "password": "1111",
+      "id": 8,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2022-09-26T13:06:50.160Z",
+      "login": " galin@demo.ru",
+      "password": "galin",
+      "id": 9,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2022-09-26T13:16:33.007Z",
+      "login": "qqleg@demo.ru",
+      "password": "1111",
+      "id": 10,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2022-09-26T13:25:03.672Z",
+      "login": "aleg@demo.ru",
+      "password": "111",
+      "id": 11,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2022-09-26T13:27:11.152Z",
+      "login": "pig@demo.ru",
+      "password": "pig",
+      "id": 12,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2022-09-26T13:32:17.959Z",
+      "login": "ol11eg@demo.ru",
+      "password": "demo1",
+      "id": 13,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2022-09-26T13:36:35.158Z",
+      "login": "ol1111eg@demo.ru",
+      "password": "demo1",
+      "id": 14,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2022-09-26T13:37:43.350Z",
+      "login": "oqqql11eg@demo.ru",
+      "password": "demo1",
+      "id": 15,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2022-09-26T13:44:32.318Z",
+      "login": "rupi@demo.ru",
+      "password": "111",
+      "id": 16,
+      "balance": {
+        "RUB": 435,
+        "USD": 9722.55309977271,
+        "EUR": 1945.8418382572368,
+        "NTC": 2288.0336560595733
       }
     }
   ],
@@ -78,6 +210,12 @@
       "1": "Важный пацан",
       "3": "Дедуля",
       "4": "Галя"
+    },
+    "16": {
+      "1": "Алексей",
+      "2": "Толя",
+      "3": "Ваня",
+      "4": "Ира"
     }
   }
 }
