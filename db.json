@@ -204,6 +204,50 @@
         "EUR": 0,
         "NTC": 0
       }
+    },
+    {
+      "created_at": "2022-10-05T12:44:24.025Z",
+      "login": "11rupi@",
+      "password": "222",
+      "id": 18,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2022-10-05T12:44:34.481Z",
+      "login": "11rupi",
+      "password": "222",
+      "id": 19,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2022-10-05T16:01:13.877Z",
+      "id": 20,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2022-10-05T16:01:24.222Z",
+      "id": 21,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
     }
   ],
   "favorites": {
