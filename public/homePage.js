@@ -2,10 +2,11 @@
 
 const logoutPA = new LogoutButton();
 logoutPA.action  = function logout(data){
-    ApiConnector.logout(data, response => console.log(response));
-    if(response = true){
+    ApiConnector.logout((response) => {
+    if(response.success == true){
         location.reload();
-    };
+ };
+});
 };
 
 //выход из личного каббинета.
@@ -22,14 +23,16 @@ ApiConnector.current(({data, success}) => {
 
 //Получение текущих курсов валюты.
 
-const currentCourses = new RatesBoard();
+const ratesBoard = new RatesBoard;
 
-setInterval((ApiConnector.getStocks(({data, success}) => {
-    if(success === true){
-        currentCourses.clearTable();
-        currentCourses.fillTable(data);
-    }
-})), 1000);
+let timer = setInterval(() => {
+    ApiConnector.getStocks(response => {
+    if (response.success === true) {
+        ratesBoard.clearTable();
+        ratesBoard.fillTable(response.data);
+    };
+});
+}, 1000);
 
 //Получение текущих курсов валюты.
 
@@ -38,7 +41,7 @@ setInterval((ApiConnector.getStocks(({data, success}) => {
 //Пополнение баланса.
 const moneyManager = new MoneyManager;
 moneyManager.addMoneyCallback = function (data) {
-    ApiConnector.addMoney(data, response => {
+    ApiConnector.addMoney(data, (response) => {
         if (response.success === true) {
             ProfileWidget.showProfile(response.data);
             moneyManager.setMessage(true, 'Успешное пополнение.');

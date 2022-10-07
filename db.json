@@ -6,7 +6,7 @@
       "password": "demo",
       "id": 1,
       "balance": {
-        "RUB": 1000,
+        "RUB": 1100,
         "USD": 21,
         "EUR": 29,
         "NTC": 3001
@@ -248,6 +248,42 @@
         "EUR": 0,
         "NTC": 0
       }
+    },
+    {
+      "created_at": "2022-10-07T09:32:17.670Z",
+      "login": "11rupi11",
+      "password": "1",
+      "id": 22,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2022-10-07T12:19:04.749Z",
+      "login": "11rupi1",
+      "password": "222",
+      "id": 23,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2022-10-07T13:38:06.026Z",
+      "login": "Riki@demo.ru",
+      "password": "1212",
+      "id": 24,
+      "balance": {
+        "RUB": 790,
+        "USD": 0,
+        "EUR": 1.83407919220483,
+        "NTC": 2000
+      }
     }
   ],
   "favorites": {
@@ -272,6 +308,7 @@
       "2": "Толя",
       "3": "Ваня",
       "4": "Ира"
-    }
+    },
+    "24": {}
   }
 }

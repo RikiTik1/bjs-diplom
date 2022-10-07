@@ -2,31 +2,26 @@
 
 // Вход и регистрация 
 
-const userForm1 = new UserForm();
+const userForm = new UserForm();
 
-userForm1.loginFormCallback = data => {
-    let login = data.login;
-    let password = data.password;
-
-    ApiConnector.login({login, password}, data => {
-        if(data.success){
+userForm.loginFormCallback = (data) => {
+    ApiConnector.login(data, (response) => {
+        if(response.success){
             location.reload();
         } else {
-            userForm1.setLoginErrorMessage(data.error);
+            userForm.setLoginErrorMessage(response.error);
         };
 });
 };
 
 
-userForm1.registerFormCallback = data => {
-    let login = data.login;
-    let password = data.password;
+userForm.registerFormCallback = data => {
 
-    ApiConnector.register({login, password}, data => {
-        if(data.success){
+    ApiConnector.register(data, (response) => {
+        if(response.success){
             location.reload();
         } else {
-            userForm1.setRegisterErrorMessage(data.error);
+            userForm.setRegisterErrorMessage(response.error);
         };
-    })
-}
+    });
+};
